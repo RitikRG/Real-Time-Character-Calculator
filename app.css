@@ -1,0 +1,37 @@
+body{
+    background-color: pink;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.517);
+    padding: 10px;
+    width: 40vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+    font-size: 80%;
+}
+#charCount{
+    color: green;
+}
+#remainingCharCount{
+    color: red;
+}
+#userText{
+    font-size: 1.5em;
+    width: 90%;
+    height: 20vh;
+}
+@media (max-width:800px){
+    .display{
+        display: block;
+    }
+}
